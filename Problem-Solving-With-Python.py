@@ -25,12 +25,13 @@ def fizzbuzz(n):
 # test run 
 fizzbuzz(15)
 
-
-
+'''
 2️⃣ Problem: Palindrome Check
 Description: Given a string. Check whether it is a palindrome (i.e., whether it is the same when reversed).
 
 ✅ Python code: 
+'''
+
     
 def is_palindrome(s):
     return s == s[::-1]
