@@ -40,3 +40,19 @@ def is_palindrome(s):
 print(is_palindrome("madam"))  # True
 print(is_palindrome("hello"))  # False
 
+'''
+3️⃣ Problem: Fibonacci Series
+Description: Create a Fibonacci series where each number is the sum of the previous two numbers. Starting from 0, 1.
+
+✅ Python code:
+'''
+def fibonacci(n):
+    a, b = 0, 1
+    for _ in range(n):
+        print(a, end=" ")
+        a, b = b, a + b
+
+# Test Run
+fibonacci(10)
+
+
