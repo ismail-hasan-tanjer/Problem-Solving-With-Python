@@ -27,4 +27,15 @@ fizzbuzz(15)
 
 
 
+2️⃣ Problem: Palindrome Check
+Description: Given a string. Check whether it is a palindrome (i.e., whether it is the same when reversed).
+
+✅ Python code: 
+    
+def is_palindrome(s):
+    return s == s[::-1]
+
+# Test 
+print(is_palindrome("madam"))  # True
+print(is_palindrome("hello"))  # False
 
