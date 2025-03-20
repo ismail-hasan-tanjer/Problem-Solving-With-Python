@@ -73,3 +73,8 @@ Description: Check if a number is prime (i.e., not divisible by any number other
 print(is_prime(7))  # True
 print(is_prime(10))  # False
 
+'''Problem: Reverse an Integer
+Description: Given a number as input, return its inverted form.
+
+✅ Python code:'''
+
