@@ -55,4 +55,9 @@ def fibonacci(n):
 # Test Run
 fibonacci(10)
 
+Problem: Prime Number Check
+Description: Check if a number is prime (i.e., not divisible by any number other than 1 and itself).
 
+✅ Python code:
+    
+    
