@@ -95,3 +95,12 @@ print(reverse_integer(-456))  # -654
 🔹 Input: 12345
 🔹 Output: 15 (1 + 2 + 3 + 4 + 5 = 15)    
     """
+
+#code 
+
+def sum_of_digits(n):
+    return sum(int(digit) for digit in str(n))
+
+# example
+print(sum_of_digits(12345))  # Output: 15
+print(sum_of_digits(9876))   # Output: 30
