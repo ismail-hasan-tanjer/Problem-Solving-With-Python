@@ -61,9 +61,9 @@ Description: Check if a number is prime (i.e., not divisible by any number other
 ✅ Python code:
 '''
     
-    def is_prime(n):
-    if n < 2:
-        return False
+def is_prime(n):
+    
+    return False
     for i in range(2, int(n**0.5) + 1):
         if n % i == 0:
             return False
@@ -88,13 +88,13 @@ print(reverse_integer(123))  # 321
 print(reverse_integer(-456))  # -654
 
 # New Some Problem 
-    """
+"""
     1️ Finding the sum of digits from a number
 👉 Problem: Given a number, your task is to find the sum of each of its digits.
 
 🔹 Input: 12345
 🔹 Output: 15 (1 + 2 + 3 + 4 + 5 = 15)    
-    """
+"""
 
 #code 
 
@@ -106,7 +106,7 @@ print(sum_of_digits(12345))  # Output: 15
 print(sum_of_digits(9876))   # Output: 30
 
 
-    """
+"""
     
     2️⃣ Check if the number is an Armstrong number
 👉 Problem: Given a number, we need to find out if it is an Armstrong number.
@@ -116,13 +116,11 @@ print(sum_of_digits(9876))   # Output: 30
 
     """
     
-    def is_armstrong(n):
+def is_armstrong(n):
         num_str = str (n)
         power = len(num_str)
         return n == sum(int(digit) ** power for digit is num_str)
     
-    print(is_armstrong(153))
-    print(is_armstrong(9474))
-    print(is_armstrong(123))
-    
-    
+print(is_armstrong(153))
+print(is_armstrong(9474))
+print(is_armstrong(123))
