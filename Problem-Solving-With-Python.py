@@ -104,3 +104,16 @@ def sum_of_digits(n):
 # example
 print(sum_of_digits(12345))  # Output: 15
 print(sum_of_digits(9876))   # Output: 30
+
+
+    """
+    
+    2️⃣ Check if the number is an Armstrong number
+👉 Problem: Given a number, we need to find out if it is an Armstrong number.
+
+🔹 Input: 153
+🔹 Output: True (1³ + 5³ + 3³ = 153)
+
+    """
+    
+    
