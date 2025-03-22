@@ -73,8 +73,25 @@ Description: Check if a number is prime (i.e., not divisible by any number other
 print(is_prime(7))  # True
 print(is_prime(10))  # False
 
-'''Problem: Reverse an Integer
-Description: Given a number as input, return its inverted form.
+# Problem: Reverse an Integer
+# Description: Given a number as input, return its inverted form.
 
-✅ Python code:'''
+# ✅ Python code:
 
+def reverse_integer(n):
+    sign = -1 if n < 0 else 1
+    rev_num = int(str(abs(n))[::-1])
+    return sign * rev_num
+
+# Test
+print(reverse_integer(123))  # 321
+print(reverse_integer(-456))  # -654
+
+# New Some Problem 
+    """
+    1️ Finding the sum of digits from a number
+👉 Problem: Given a number, your task is to find the sum of each of its digits.
+
+🔹 Input: 12345
+🔹 Output: 15 (1 + 2 + 3 + 4 + 5 = 15)    
+    """
