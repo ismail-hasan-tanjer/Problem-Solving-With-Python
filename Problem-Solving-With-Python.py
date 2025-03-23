@@ -124,3 +124,12 @@ def is_armstrong(n):
 print(is_armstrong(153))
 print(is_armstrong(9474))
 print(is_armstrong(123))
+
+"""
+3️⃣ Counting vowels in a string
+👉 Problem: Given a string, your task is to find how many vowels (a, e, i, o, u) are in it.
+
+🔹 Input: "hello world"
+🔹 Output: 3 (e, o, o)
+"""
+
