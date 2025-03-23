@@ -133,3 +133,13 @@ print(is_armstrong(123))
 🔹 Output: 3 (e, o, o)
 """
 
+#counting vowels code 
+
+def count_vowels(s):
+    vowels = "aeiouAEIOU"
+    return sum(1 for char in s if char in vowels)
+
+# example 
+print(count_vowels("hello world"))  # Output: 3
+print(count_vowels("Python Programming")) # Output: 5
+
