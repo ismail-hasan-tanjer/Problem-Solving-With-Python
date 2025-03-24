@@ -184,5 +184,10 @@ print(lcm(10, 15)) # Output: 30
 🔹 Input: [10, 20, 30, 40, 50]
 🔹 Output: 30.0
     """
-    
-    
+#code  
+    def average(lst):
+    return sum(lst) / len(lst) if lst else 0
+
+# example 
+print(average([10, 20, 30, 40, 50]))  # Output: 30.0
+print(average([5, 15, 25]))  # Output: 15.0
