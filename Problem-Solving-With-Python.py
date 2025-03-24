@@ -191,3 +191,19 @@ print(lcm(10, 15)) # Output: 30
 # example 
 print(average([10, 20, 30, 40, 50]))  # Output: 30.0
 print(average([5, 15, 25]))  # Output: 15.0
+
+    """
+    7️⃣ Check if two strings are anagrams
+👉 Problem: Given two strings, we need to find out if they are anagrams.
+
+🔹 Input: "listen", "silent"
+🔹 Output: True
+    """
+    
+    def is_anagram(str1, str2):
+    return sorted(str1) == sorted(str2)
+
+# Example 
+print(is_anagram("listen", "silent"))  # Output: True
+print(is_anagram("hello", "world"))    # Output: False
+
