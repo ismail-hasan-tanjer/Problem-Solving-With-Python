@@ -214,3 +214,12 @@ print(is_anagram("hello", "world"))    # Output: False
 🔹 Input: [1, 2, 2, 3, 4, 4, 5]
 🔹 Output: [1, 2, 3, 4, 5]      
 """
+
+#coding 
+
+def unique_elements(lst):
+    return list(set(lst))
+
+# example 
+print(unique_elements([1, 2, 2, 3, 4, 4, 5]))  # Output: [1, 2, 3, 4, 5]
+print(unique_elements([10, 20, 10, 30]))  # Output: [10, 20, 30]
