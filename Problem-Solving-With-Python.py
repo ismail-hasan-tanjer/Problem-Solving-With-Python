@@ -158,3 +158,13 @@ def find_factors(n):
 # used example 
 print(find_factors(12))  # Output: [1, 2, 3, 4, 6, 12]
 print(find_factors(15))  # Output: [1, 3, 5, 15]
+
+    """
+    5️⃣ Finding the LCM of two numbers
+👉 Problem: Given two numbers, find the Least Common Multiple (LCM) of them.
+
+🔹 Input: 4, 6
+🔹 Output: 12
+    """
+    
+    
