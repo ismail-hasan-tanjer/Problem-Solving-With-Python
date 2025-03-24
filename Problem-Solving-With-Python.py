@@ -167,4 +167,11 @@ print(find_factors(15))  # Output: [1, 3, 5, 15]
 🔹 Output: 12
     """
     
-    
+    import math
+
+def lcm(a, b):
+    return abs(a * b) // math.gcd(a, b)
+
+# used example 
+print(lcm(4, 6))   # Output: 12
+print(lcm(10, 15)) # Output: 30
