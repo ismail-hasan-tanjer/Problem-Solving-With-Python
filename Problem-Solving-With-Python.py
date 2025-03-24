@@ -175,3 +175,14 @@ def lcm(a, b):
 # used example 
 print(lcm(4, 6))   # Output: 12
 print(lcm(10, 15)) # Output: 30
+
+
+    """
+    6️⃣ Finding the average of all the elements of an array
+👉 Problem: Given a list, we need to find the average of all the numbers in it.
+
+🔹 Input: [10, 20, 30, 40, 50]
+🔹 Output: 30.0
+    """
+    
+    
