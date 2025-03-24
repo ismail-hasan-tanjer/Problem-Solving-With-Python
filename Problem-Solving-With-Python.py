@@ -207,3 +207,10 @@ print(average([5, 15, 25]))  # Output: 15.0
 print(is_anagram("listen", "silent"))  # Output: True
 print(is_anagram("hello", "world"))    # Output: False
 
+"""
+8️⃣ Finding the unique numbers of all elements in a list
+👉 Problem: Given a list, you need to find its unique numbers.
+
+🔹 Input: [1, 2, 2, 3, 4, 4, 5]
+🔹 Output: [1, 2, 3, 4, 5]      
+"""
