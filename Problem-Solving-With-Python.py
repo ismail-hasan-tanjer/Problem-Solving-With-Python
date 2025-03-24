@@ -150,3 +150,11 @@ print(count_vowels("Python Programming")) # Output: 5
 🔹 Input: 12
 🔹 Output: [1, 2, 3, 4, 6, 12]
     """
+
+#code 
+def find_factors(n):
+    return [i for i in range(1, n + 1) if n % i == 0]
+
+# used example 
+print(find_factors(12))  # Output: [1, 2, 3, 4, 6, 12]
+print(find_factors(15))  # Output: [1, 3, 5, 15]
