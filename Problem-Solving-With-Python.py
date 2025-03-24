@@ -143,3 +143,10 @@ def count_vowels(s):
 print(count_vowels("hello world"))  # Output: 3
 print(count_vowels("Python Programming")) # Output: 5
 
+    """
+    4️⃣ Finding Factors of Numbers
+👉 Problem: Given a number, you need to find all its factors.
+
+🔹 Input: 12
+🔹 Output: [1, 2, 3, 4, 6, 12]
+    """
