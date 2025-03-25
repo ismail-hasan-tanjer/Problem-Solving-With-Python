@@ -247,3 +247,20 @@ Finding the Fibonacci series of numbers
 🔹 Input: 5
 🔹 Output: [0, 1, 1, 2, 3]
 
+def fibonacci(n):
+    fib_series = [0, 1]
+    for i in range(2, n):
+        fib_series.append(fib_series[-1] + fib_series[-2])
+    return fib_series[:n]
+
+#example 
+print(fibonacci(5))  # Output: [0, 1, 1, 2, 3]
+print(fibonacci(8))  # Output: [0, 1, 1, 2, 3, 5, 8, 13]
+
+
+Checking if a digit of a number is a palindrome
+👉 Problem: Given a number, we need to check if it is a palindrome.
+
+🔹 Input: 121
+🔹 Output: True
+
