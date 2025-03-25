@@ -290,3 +290,8 @@ print(char_count("banana"))  # Output: {'b': 1, 'a': 3, 'n': 2}
 print(char_count("hello"))   # Output: {'h': 1, 'e': 1, 'l': 2, 'o': 1}
 
 
+Count the words in a string
+👉 Problem: Given a sentence, find how many words it contains.
+
+🔹 Input: "Python is a great language"
+🔹 Output: 5
