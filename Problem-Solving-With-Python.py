@@ -264,3 +264,11 @@ Checking if a digit of a number is a palindrome
 🔹 Input: 121
 🔹 Output: True
 
+#coding 
+
+def is_palindrome(n):
+    return str(n) == str(n)[::-1]
+
+#example 
+print(is_palindrome(121))  # Output: True
+print(is_palindrome(123))  # Output: False
