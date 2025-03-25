@@ -223,3 +223,11 @@ def unique_elements(lst):
 # example 
 print(unique_elements([1, 2, 2, 3, 4, 4, 5]))  # Output: [1, 2, 3, 4, 5]
 print(unique_elements([10, 20, 10, 30]))  # Output: [10, 20, 30]
+
+
+1️⃣ Reverse each digit of a number
+👉 Problem: Given a number, its digits need to be reversed.
+
+🔹 Input: 12345
+🔹 Output: 54321
+
