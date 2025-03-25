@@ -272,3 +272,11 @@ def is_palindrome(n):
 #example 
 print(is_palindrome(121))  # Output: True
 print(is_palindrome(123))  # Output: False
+
+
+Counting the number of each character in a string
+👉 Problem: Given a string, we need to find how many times each character appears in it.
+
+🔹 Input: "banana"
+🔹 Output: {'b': 1, 'a': 3, 'n': 2}
+
