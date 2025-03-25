@@ -231,3 +231,11 @@ print(unique_elements([10, 20, 10, 30]))  # Output: [10, 20, 30]
 🔹 Input: 12345
 🔹 Output: 54321
 
+#coding 
+
+def reverse_digits(n):
+    return int(str(n)[::-1])
+
+# example 
+print(reverse_digits(12345))  # Output: 54321
+print(reverse_digits(9876))   # Output: 6789
