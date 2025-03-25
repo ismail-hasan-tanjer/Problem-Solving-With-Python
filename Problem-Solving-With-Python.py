@@ -295,3 +295,12 @@ Count the words in a string
 
 🔹 Input: "Python is a great language"
 🔹 Output: 5
+
+#coding 
+
+def word_count(s):
+    return len(s.split())
+
+# উদাহরণ ব্যবহার
+print(word_count("Python is a great language"))  # Output: 5
+print(word_count("Hello World!"))  # Output: 2
