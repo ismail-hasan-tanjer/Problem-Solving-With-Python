@@ -239,3 +239,11 @@ def reverse_digits(n):
 # example 
 print(reverse_digits(12345))  # Output: 54321
 print(reverse_digits(9876))   # Output: 6789
+
+
+Finding the Fibonacci series of numbers
+👉 Problem: Given a number, find its first N Fibonacci numbers.
+
+🔹 Input: 5
+🔹 Output: [0, 1, 1, 2, 3]
+
