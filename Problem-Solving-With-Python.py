@@ -280,3 +280,13 @@ Counting the number of each character in a string
 🔹 Input: "banana"
 🔹 Output: {'b': 1, 'a': 3, 'n': 2}
 
+from collections import Counter
+
+def char_count(s):
+    return dict(Counter(s))
+
+# example 
+print(char_count("banana"))  # Output: {'b': 1, 'a': 3, 'n': 2}
+print(char_count("hello"))   # Output: {'h': 1, 'e': 1, 'l': 2, 'o': 1}
+
+
