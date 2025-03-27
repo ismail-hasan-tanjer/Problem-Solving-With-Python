@@ -353,6 +353,14 @@ def prime_factors(n):
         factors.append(n)
     return factors
 
-# উদাহরণ ব্যবহার
+# example 
 print(prime_factors(56))  # Output: [2, 2, 2, 7]
 print(prime_factors(100)) # Output: [2, 2, 5, 5]
+
+
+9️⃣ Finding the maximum and minimum difference in an array
+👉 Problem: Given a list, we need to find the difference between the maximum and minimum numbers in it.
+
+🔹 Input: [7, 2, 9, 1, 5]
+🔹 Output: 8
+
