@@ -301,6 +301,8 @@ Count the words in a string
 def word_count(s):
     return len(s.split())
 
-# উদাহরণ ব্যবহার
+# example 
 print(word_count("Python is a great language"))  # Output: 5
 print(word_count("Hello World!"))  # Output: 2
+
+
