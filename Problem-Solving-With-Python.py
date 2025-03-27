@@ -325,3 +325,12 @@ print(common_elements([10, 20, 30], [30, 40, 50]))  # Output: [30]
 
 🔹 Input: [10, 20, 4, 45, 99]
 🔹 Output: 45
+
+def second_largest(lst):
+    unique_lst = list(set(lst))
+    unique_lst.sort(reverse=True)
+    return unique_lst[1] if len(unique_lst) > 1 else None
+
+# example 
+print(second_largest([10, 20, 4, 45, 99]))  # Output: 45
+print(second_largest([5, 5, 5]))  # Output: None
