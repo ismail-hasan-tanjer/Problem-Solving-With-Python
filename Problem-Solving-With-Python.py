@@ -340,3 +340,19 @@ print(second_largest([5, 5, 5]))  # Output: None
 
 🔹 Input: 56
 🔹 Output: [2, 2, 2, 7]
+
+def prime_factors(n):
+    factors = []
+    i = 2
+    while i * i <= n:
+        while n % i == 0:
+            factors.append(i)
+            n //= i
+        i += 1
+    if n > 1:
+        factors.append(n)
+    return factors
+
+# উদাহরণ ব্যবহার
+print(prime_factors(56))  # Output: [2, 2, 2, 7]
+print(prime_factors(100)) # Output: [2, 2, 5, 5]
