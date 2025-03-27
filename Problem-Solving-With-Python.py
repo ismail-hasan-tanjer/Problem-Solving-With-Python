@@ -334,3 +334,9 @@ def second_largest(lst):
 # example 
 print(second_largest([10, 20, 4, 45, 99]))  # Output: 45
 print(second_largest([5, 5, 5]))  # Output: None
+
+8️⃣ Finding all the prime factors of a number
+👉 Problem: Given a number, we need to do its Prime Factorization.
+
+🔹 Input: 56
+🔹 Output: [2, 2, 2, 7]
