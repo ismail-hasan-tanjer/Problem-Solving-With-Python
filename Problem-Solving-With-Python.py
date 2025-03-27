@@ -306,3 +306,15 @@ print(word_count("Python is a great language"))  # Output: 5
 print(word_count("Hello World!"))  # Output: 2
 
 
+6️⃣ Finding the matching elements of two lists
+👉 Problem: Given two lists, we need to find the matching elements.
+
+🔹 Input: [1, 2, 3, 4], [3, 4, 5, 6]
+🔹 Output: [3, 4]
+
+def common_elements(lst1, lst2):
+    return list(set(lst1) & set(lst2))
+
+# example 
+print(common_elements([1, 2, 3, 4], [3, 4, 5, 6]))  # Output: [3, 4]
+print(common_elements([10, 20, 30], [30, 40, 50]))  # Output: [30]
