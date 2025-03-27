@@ -318,3 +318,10 @@ def common_elements(lst1, lst2):
 # example 
 print(common_elements([1, 2, 3, 4], [3, 4, 5, 6]))  # Output: [3, 4]
 print(common_elements([10, 20, 30], [30, 40, 50]))  # Output: [30]
+
+
+7️⃣ Finding the second highest number in an array
+👉 Problem: Given a list of numbers, find the second highest number.
+
+🔹 Input: [10, 20, 4, 45, 99]
+🔹 Output: 45
