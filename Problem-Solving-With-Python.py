@@ -487,3 +487,6 @@ Problem: We need to find the average marks of students in five subjects.
 
 🔹 Input: [85, 90, 78, 88, 92]
 🔹 Output: Average: 86.6
+
+#coding 
+
