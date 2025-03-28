@@ -461,3 +461,24 @@ def task_completion(total, completed):
 
 print(task_completion(20, 15))
 
+5. Product Discount Price Calculation
+Problem: Find the final price by applying a discount on a product.
+
+🔹 Input:
+
+Original price: 1000 taka
+
+Discount: 15%
+
+🔹 Output:
+
+Final price: 850 taka
+
+#coding 
+
+def discounted_price(price, discount):
+    final_price = price - (price * discount / 100)
+    return final_price
+
+print("Final Price:", discounted_price(1000, 15))
+
