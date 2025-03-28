@@ -460,3 +460,4 @@ def task_completion(total, completed):
     return f"{percentage}% completed"
 
 print(task_completion(20, 15))
+
