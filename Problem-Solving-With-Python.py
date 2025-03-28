@@ -490,3 +490,8 @@ Problem: We need to find the average marks of students in five subjects.
 
 #coding 
 
+def average_marks(marks):
+    return sum(marks) / len(marks)
+
+marks = [85, 90, 78, 88, 92]
+print("Average Marks:", average_marks(marks))
