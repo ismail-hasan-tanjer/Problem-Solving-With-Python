@@ -398,3 +398,21 @@ def calculate_salary(basic, bonus, tax_rate):
 
 print("Total Salary:", calculate_salary(30000, 5000, 10))
 
+
+
+
+2. Product Stock Update
+Problem: A store needs to update the product stock.
+
+🔹 Input:
+
+Initial stock of product: 50
+
+Sales: 10
+
+New additions: 20
+
+🔹 Output:
+
+Current stock: 60
+
