@@ -438,3 +438,17 @@ def is_valid_email(email):
     return bool(re.match(pattern, email))
 
 print(is_valid_email("tanjerinfo@gmail.com"))  # Output: True
+
+
+4. Task Completion Tracker
+Problem: Determine the percentage of daily tasks.
+
+🔹 Input:
+
+Total tasks: 20
+
+Completed tasks: 15
+
+🔹 Output:
+
+75% complete
