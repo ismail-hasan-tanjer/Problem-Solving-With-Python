@@ -388,3 +388,13 @@ Tax rate: 10%
 🔹 Output:
 
 Total salary: 31,500 taka
+
+#coding 
+def calculate_salary(basic, bonus, tax_rate):
+    gross_salary = basic + bonus
+    tax = gross_salary * (tax_rate / 100)
+    net_salary = gross_salary - tax
+    return net_salary
+
+print("Total Salary:", calculate_salary(30000, 5000, 10))
+
