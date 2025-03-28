@@ -452,3 +452,11 @@ Completed tasks: 15
 🔹 Output:
 
 75% complete
+
+#coding 
+
+def task_completion(total, completed):
+    percentage = (completed / total) * 100
+    return f"{percentage}% completed"
+
+print(task_completion(20, 15))
