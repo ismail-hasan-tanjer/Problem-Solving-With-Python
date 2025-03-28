@@ -423,3 +423,18 @@ def update_stock(current_stock, sold, added):
 
 print("Updated Stock:", update_stock(50, 10, 20))
 
+3. Valid Email Verification
+Problem: Need to verify whether an email is valid.
+
+🔹 Input: tanjerinfo@gmail.com
+🔹 Output: Valid Email
+
+#coding 
+
+import re
+
+def is_valid_email(email):
+    pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
+    return bool(re.match(pattern, email))
+
+print(is_valid_email("tanjerinfo@gmail.com"))  # Output: True
