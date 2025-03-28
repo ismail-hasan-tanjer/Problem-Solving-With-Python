@@ -416,3 +416,9 @@ New additions: 20
 
 Current stock: 60
 
+#coding 
+
+def update_stock(current_stock, sold, added):
+    return current_stock - sold + added
+
+print("Updated Stock:", update_stock(50, 10, 20))
