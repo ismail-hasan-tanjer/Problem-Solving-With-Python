@@ -364,3 +364,27 @@ print(prime_factors(100)) # Output: [2, 2, 5, 5]
 🔹 Input: [7, 2, 9, 1, 5]
 🔹 Output: 8
 
+def max_min_difference(lst):
+    return max(lst) - min(lst)
+
+# example 
+print(max_min_difference([7, 2, 9, 1, 5]))  # Output: 8
+print(max_min_difference([10, 20, 30, 40]))  # Output: 30
+
+
+=====
+
+1. Calculation of employee salaries
+Problem: The monthly salary of employees in an organization needs to be calculated. Basic salary, bonus and tax rate will be given.
+
+🔹 Input:
+
+Basic salary: 30,000 taka
+
+Bonus: 5,000 taka
+
+Tax rate: 10%
+
+🔹 Output:
+
+Total salary: 31,500 taka
