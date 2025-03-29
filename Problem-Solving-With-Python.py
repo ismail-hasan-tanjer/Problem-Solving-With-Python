@@ -555,3 +555,16 @@ def is_spam(comment, spam_words):
 spam_words = ["spam", "click", "subscribe"]
 print(is_spam("This is not spam.", spam_words))
 
+
+🔟 Website Loading Time Estimation
+Problem: Given the size and bandwidth of the website, the loading time needs to be calculated.
+
+🔹 Input:
+
+Size: 5 MB
+
+Bandwidth: 1 Mbps
+
+🔹 Output:
+
+Loading time: 5 seconds
