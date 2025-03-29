@@ -631,4 +631,12 @@ Range: 500 to 1000
 
 🔹 Output:
 
-Product: [500, 750, 1000]
+Product: [500, 750, 1000] 
+
+#coding 
+
+def filter_products(prices, min_price, max_price):
+    return [price for price in prices if min_price <= price <= max_price]
+
+prices = [500, 1500, 2000, 1000, 750]
+print("Filtered Products:", filter_products(prices, 500, 1000))
