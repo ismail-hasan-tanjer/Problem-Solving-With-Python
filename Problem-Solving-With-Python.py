@@ -597,3 +597,8 @@ def calculate_vat(price, vat_rate):
     return final_price
 
 print("Final Price with VAT:", calculate_vat(1500, 7.5))
+
+
+12. Determining Customer Discounts
+Problem: A shop offers different discounts to customers. 10% if the purchase is more than 1000 taka, otherwise 5%.
+
