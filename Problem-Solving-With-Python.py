@@ -588,3 +588,12 @@ VAT rate: 7.5%
 🔹 Output:
 
 Final price: 1612.5 taka
+
+#coding 
+
+def calculate_vat(price, vat_rate):
+    vat = price * (vat_rate / 100)
+    final_price = price + vat
+    return final_price
+
+print("Final Price with VAT:", calculate_vat(1500, 7.5))
