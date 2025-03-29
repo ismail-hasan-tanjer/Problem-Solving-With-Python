@@ -533,3 +533,17 @@ sorted_movies = sorted(movies.items(), key=lambda x: x[1], reverse=True)
 print("Sorted Movies:", sorted_movies)
 
 
+9. Spam Detector in Comments
+Problem: Need to check if a comment contains spam words.
+
+🔹 Input:
+
+Comment: "This is not spam."
+
+Spam words: ["spam", "click", "subscribe"]
+
+🔹 Output:
+
+False
+
+
