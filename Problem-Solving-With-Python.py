@@ -576,3 +576,15 @@ def loading_time(size, bandwidth):
 print("Loading Time:", loading_time(5, 1), "seconds") 
 
 
+11. VAT Calculation
+Problem: The price of a product and the VAT rate are given. The final price needs to be found.
+
+🔹 Input:
+
+Product price: 1500 taka
+
+VAT rate: 7.5%
+
+🔹 Output:
+
+Final price: 1612.5 taka
