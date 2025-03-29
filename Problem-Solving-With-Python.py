@@ -547,3 +547,11 @@ Spam words: ["spam", "click", "subscribe"]
 False
 
 
+#coding 
+
+def is_spam(comment, spam_words):
+    return any(word in comment for word in spam_words)
+
+spam_words = ["spam", "click", "subscribe"]
+print(is_spam("This is not spam.", spam_words))
+
