@@ -495,3 +495,22 @@ def average_marks(marks):
 
 marks = [85, 90, 78, 88, 92]
 print("Average Marks:", average_marks(marks))
+
+
+7. Determining Car Rental Fee
+Problem:
+
+Daily Rent: 500 Taka
+
+Number of Days of Rental: 5
+
+🔹 Output:
+
+Total Rent: 2500 Taka 
+
+#coding 
+
+def rental_fee(per_day, days):
+    return per_day * days
+
+print("Total Rental Fee:", rental_fee(500, 5))
