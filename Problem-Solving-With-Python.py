@@ -514,3 +514,14 @@ def rental_fee(per_day, days):
     return per_day * days
 
 print("Total Rental Fee:", rental_fee(500, 5))
+
+
+8. Sorting by movie rating
+Problem: There are various movie ratings given. They need to be sorted by rating.
+
+🔹 Input:
+
+Movie: {"Inception": 9.0, "Avatar": 8.5, "Titanic": 7.8}
+🔹 Output:
+
+Sort: [('Inception', 9.0), ('Avatar', 8.5), ('Titanic', 7.8)]
