@@ -568,3 +568,11 @@ Bandwidth: 1 Mbps
 🔹 Output:
 
 Loading time: 5 seconds
+
+#coding 
+def loading_time(size, bandwidth):
+    return size / bandwidth
+
+print("Loading Time:", loading_time(5, 1), "seconds") 
+
+
