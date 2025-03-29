@@ -622,3 +622,13 @@ print("Discounted Price:", customer_discount(1200))
 
 13. Product Filter (Price Range)
 Problem: Need to extract products in a specific range from a product list.
+
+🔹 Input:
+
+Product Price: [500, 1500, 2000, 1000, 750]
+
+Range: 500 to 1000
+
+🔹 Output:
+
+Product: [500, 750, 1000]
