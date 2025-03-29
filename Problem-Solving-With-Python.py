@@ -640,3 +640,18 @@ def filter_products(prices, min_price, max_price):
 
 prices = [500, 1500, 2000, 1000, 750]
 print("Filtered Products:", filter_products(prices, 500, 1000))
+
+
+
+14. Determining the pass/fail of students
+Problem: Pass if the average mark >= 50, otherwise fail.
+
+🔹 Input:
+
+Numbers: [60, 45, 55, 40, 75]
+
+🔹 Output:
+
+Result: "Passed"
+
+
