@@ -525,3 +525,11 @@ Movie: {"Inception": 9.0, "Avatar": 8.5, "Titanic": 7.8}
 🔹 Output:
 
 Sort: [('Inception', 9.0), ('Avatar', 8.5), ('Titanic', 7.8)]
+
+
+#coding 
+movies = {"Inception": 9.0, "Avatar": 8.5, "Titanic": 7.8}
+sorted_movies = sorted(movies.items(), key=lambda x: x[1], reverse=True)
+print("Sorted Movies:", sorted_movies)
+
+
