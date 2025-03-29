@@ -654,4 +654,10 @@ Numbers: [60, 45, 55, 40, 75]
 
 Result: "Passed"
 
+#coding 
+def pass_fail(marks):
+    average = sum(marks) / len(marks)
+    return "Passed" if average >= 50 else "Failed"
 
+marks = [60, 45, 55, 40, 75]
+print("Result:", pass_fail(marks))
