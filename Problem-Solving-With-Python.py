@@ -610,3 +610,15 @@ Purchase price: 1200 taka
 
 Final price: 1080 taka
 
+#coding 
+
+def customer_discount(price):
+    discount = 10 if price > 1000 else 5
+    final_price = price - (price * discount / 100)
+    return final_price
+
+print("Discounted Price:", customer_discount(1200))
+
+
+13. Product Filter (Price Range)
+Problem: Need to extract products in a specific range from a product list.
