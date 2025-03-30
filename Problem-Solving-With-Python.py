@@ -767,3 +767,8 @@ def grade_calculator(marks):
         return "F"
 
 print("Grade:", grade_calculator([80, 75, 90]))
+
+
+19. Converting days to weeks
+Problem: Finding weeks from the number of days.
+
