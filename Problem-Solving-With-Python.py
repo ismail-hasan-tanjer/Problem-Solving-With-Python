@@ -707,4 +707,15 @@ Oil: Available
 
 Salt: Low Stock
 
+#coding 
+
+def inventory_report(products):
+    for item, qty in products.items():
+        status = "Low Stock" if qty < 30 else "Available"
+        print(f"{item}: {status}")
+
+inventory = {"Rice": 100, "Oil": 50, "Salt": 20}
+inventory_report(inventory)
+
+
 
