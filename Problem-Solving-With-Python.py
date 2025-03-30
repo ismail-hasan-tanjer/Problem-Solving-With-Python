@@ -744,3 +744,11 @@ print("Final Balance:", update_balance(5000, 1500, 2000))
 
 
 Problem: Finding grades based on average marks.
+
+🔹 Input:
+
+Number: [80, 75, 90]
+
+🔹 Output:
+
+Grade: A
