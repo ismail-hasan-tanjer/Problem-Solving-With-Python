@@ -661,3 +661,20 @@ def pass_fail(marks):
 
 marks = [60, 45, 55, 40, 75]
 print("Result:", pass_fail(marks))
+
+15. Internet Package Pricing
+Problem: Charges should be determined based on MB usage.
+
+Up to 1 GB: 50 Taka
+
+1 GB to 5 GB: 100 Taka
+
+More than 5 GB: 200 Taka
+
+🔹 Input:
+
+Usage: 3 GB
+
+🔹 Output:
+
+Price: 100 Taka
