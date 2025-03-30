@@ -717,5 +717,6 @@ def inventory_report(products):
 inventory = {"Rice": 100, "Oil": 50, "Salt": 20}
 inventory_report(inventory)
 
-
+17. Bank Account Balance Update
+Problem: Updating balance based on deposits and withdrawals.
 
