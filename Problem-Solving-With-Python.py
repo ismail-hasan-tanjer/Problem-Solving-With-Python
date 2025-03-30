@@ -720,5 +720,23 @@ inventory_report(inventory)
 17. Bank Account Balance Update
 Problem: Updating balance based on deposits and withdrawals.
 
+🔹 Input:
 
+Initial Balance: 5000 Taka
+
+Deposit: 1500 Taka
+
+Withdrawal: 2000 Taka
+
+🔹 Output:
+
+Final Balance: 4500 Taka
+
+
+#coding 
+
+def update_balance(balance, deposit, withdrawal):
+    return balance + deposit - withdrawal
+
+print("Final Balance:", update_balance(5000, 1500, 2000))
 
