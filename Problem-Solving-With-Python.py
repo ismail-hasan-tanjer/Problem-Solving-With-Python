@@ -752,3 +752,18 @@ Number: [80, 75, 90]
 🔹 Output:
 
 Grade: A
+
+#coding 
+
+def grade_calculator(marks):
+    avg = sum(marks) / len(marks)
+    if avg >= 80:
+        return "A"
+    elif avg >= 60:
+        return "B"
+    elif avg >= 40:
+        return "C"
+    else:
+        return "F"
+
+print("Grade:", grade_calculator([80, 75, 90]))
