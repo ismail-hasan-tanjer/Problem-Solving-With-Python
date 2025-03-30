@@ -691,3 +691,7 @@ def internet_charge(data):
 
 print("Charge:", internet_charge(3))
 
+
+16. Product Inventory Report
+Problem: Need to display the number of products and stock status.
+
