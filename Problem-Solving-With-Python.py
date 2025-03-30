@@ -779,3 +779,12 @@ Days: 15
 🔹 Output:
 
 2 weeks, 1 day
+
+#coding 
+
+def days_to_weeks(days):
+    weeks = days // 7
+    remaining_days = days % 7
+    return f"{weeks} weeks, {remaining_days} days"
+
+print(days_to_weeks(15))
