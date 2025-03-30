@@ -740,3 +740,7 @@ def update_balance(balance, deposit, withdrawal):
 
 print("Final Balance:", update_balance(5000, 1500, 2000))
 
+18. Determining Student Grades
+
+
+Problem: Finding grades based on average marks.
