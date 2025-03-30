@@ -772,3 +772,10 @@ print("Grade:", grade_calculator([80, 75, 90]))
 19. Converting days to weeks
 Problem: Finding weeks from the number of days.
 
+🔹 Input:
+
+Days: 15
+
+🔹 Output:
+
+2 weeks, 1 day
