@@ -695,3 +695,16 @@ print("Charge:", internet_charge(3))
 16. Product Inventory Report
 Problem: Need to display the number of products and stock status.
 
+🔹 Input:
+
+Product: {"Rice": 100, "Oil": 50, "Salt": 20}
+
+🔹 Output:
+
+Rice: Available
+
+Oil: Available
+
+Salt: Low Stock
+
+
