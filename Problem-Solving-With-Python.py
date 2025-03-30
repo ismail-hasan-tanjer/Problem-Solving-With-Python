@@ -679,3 +679,15 @@ Usage: 3 GB
 
 Price: 100 Taka
 
+#coding 
+
+def internet_charge(data):
+    if data <= 1:
+        return 50
+    elif data <= 5:
+        return 100
+    else:
+        return 200
+
+print("Charge:", internet_charge(3))
+
