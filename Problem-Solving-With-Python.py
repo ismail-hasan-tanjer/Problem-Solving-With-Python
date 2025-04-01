@@ -822,6 +822,12 @@ Yellow: Be prepared
 
 Green: Go
 
-python
-Copy
-Edit
+
+#coding 
+
+def traffic_signal(color):
+    signals = {"red": "Stop", "yellow": "Get Ready", "green": "Go"}
+    return signals.get(color.lower(), "Invalid Signal")
+
+print(traffic_signal("green"))
+
