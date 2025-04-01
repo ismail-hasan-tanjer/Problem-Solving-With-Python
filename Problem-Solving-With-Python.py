@@ -853,3 +853,9 @@ Problem: Find the total price of a book given the price and quantity.
 
 
 
+#coding 
+
+def total_book_price(price, quantity):
+    return price * quantity
+
+print("Total Price:", total_book_price(150, 3))
