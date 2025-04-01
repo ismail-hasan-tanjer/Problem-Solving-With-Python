@@ -864,3 +864,15 @@ print("Total Price:", total_book_price(150, 3))
 
 4. Phone Number Verification
 Problem: If the phone number is not 11 digits, it will show "Invalid".
+
+#coding 
+
+def phone_number_check(number):
+    if len(str(number)) == 11:
+        return "Valid"
+    else:
+        return "Invalid"
+
+print(phone_number_check(01938561706))
+
+
