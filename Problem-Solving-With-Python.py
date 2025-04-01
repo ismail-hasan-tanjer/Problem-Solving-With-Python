@@ -859,3 +859,8 @@ def total_book_price(price, quantity):
     return price * quantity
 
 print("Total Price:", total_book_price(150, 3))
+
+
+
+4. Phone Number Verification
+Problem: If the phone number is not 11 digits, it will show "Invalid".
