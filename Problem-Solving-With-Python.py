@@ -788,3 +788,17 @@ def days_to_weeks(days):
     return f"{weeks} weeks, {remaining_days} days"
 
 print(days_to_weeks(15))
+
+
+
+
+20. Determining Tax on Income
+Problem:
+
+Amount of Income: 70,000 Taka
+
+Tax Rate: 12%
+
+🔹 Output:
+
+Tax: 8,400 Taka
