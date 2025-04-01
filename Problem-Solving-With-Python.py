@@ -810,3 +810,18 @@ def calculate_tax(income, tax_rate):
 
 print("Tax Amount:", calculate_tax(70000, 12))
 
+
+
+
+1. Traffic Signal Checker
+Problem: Given a traffic signal color, it should give movement instructions.
+
+Red: Stop
+
+Yellow: Be prepared
+
+Green: Go
+
+python
+Copy
+Edit
