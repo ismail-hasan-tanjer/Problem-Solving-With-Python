@@ -836,5 +836,12 @@ print(traffic_signal("green"))
 2. Password Strength Check
 Problem: A password should be considered weak if its length is less than 8 and strong if it is 8 or more.
 
+def password_strength(password):
+    if len(password) >= 8:
+        return "Strong Password"
+    else:
+        return "Weak Password"
+
+print(password_strength("Pass1234"))
 
 
