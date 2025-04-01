@@ -831,3 +831,10 @@ def traffic_signal(color):
 
 print(traffic_signal("green"))
 
+
+
+2. Password Strength Check
+Problem: A password should be considered weak if its length is less than 8 and strong if it is 8 or more.
+
+
+
