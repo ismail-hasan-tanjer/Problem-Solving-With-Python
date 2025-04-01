@@ -802,3 +802,11 @@ Tax Rate: 12%
 🔹 Output:
 
 Tax: 8,400 Taka
+
+#coding 
+
+def calculate_tax(income, tax_rate):
+    return income * (tax_rate / 100)
+
+print("Tax Amount:", calculate_tax(70000, 12))
+
