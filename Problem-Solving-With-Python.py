@@ -836,6 +836,9 @@ print(traffic_signal("green"))
 2. Password Strength Check
 Problem: A password should be considered weak if its length is less than 8 and strong if it is 8 or more.
 
+
+# coding 
+
 def password_strength(password):
     if len(password) >= 8:
         return "Strong Password"
@@ -843,5 +846,10 @@ def password_strength(password):
         return "Weak Password"
 
 print(password_strength("Pass1234"))
+
+
+3. Book Price Calculation
+Problem: Find the total price of a book given the price and quantity.
+
 
 
