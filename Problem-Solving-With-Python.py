@@ -899,4 +899,12 @@ print(file_extension("document.pdf"))
 Problem: An email address is valid if it has '@' and '.', otherwise it is invalid.
 
 
+#coding 
+
+def email_validator(email):
+    if "@" in email and "." in email:
+        return "Valid Email"
+    return "Invalid Email"
+
+print(email_validator("user@example.com"))
 
