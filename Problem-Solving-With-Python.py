@@ -884,7 +884,6 @@ print(phone_number_check(01938561706))
 5. File Extension Checker
 Problem: Check the extension by file name (eg: .pdf, .doc).
 
-
 #coding 
 
 def file_extension(filename):
@@ -895,6 +894,9 @@ def file_extension(filename):
 
 print(file_extension("document.pdf"))
 
+
+6. Email Validator
+Problem: An email address is valid if it has '@' and '.', otherwise it is invalid.
 
 
 
