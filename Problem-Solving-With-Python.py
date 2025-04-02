@@ -918,3 +918,7 @@ def db_connection(status):
     return "Connected" if status else "Not Connected"
 
 print(db_connection(True))
+
+
+8. Find the factorial
+Problem: Given a number, find its factorial.
