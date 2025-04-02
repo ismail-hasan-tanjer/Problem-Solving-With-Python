@@ -908,3 +908,13 @@ def email_validator(email):
 
 print(email_validator("user@example.com"))
 
+
+7. Database Connection Check
+Problem: Show "Connected" if database connection to server is successful.
+
+#coding 
+
+def db_connection(status):
+    return "Connected" if status else "Not Connected"
+
+print(db_connection(True))
