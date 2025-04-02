@@ -922,3 +922,14 @@ print(db_connection(True))
 
 8. Find the factorial
 Problem: Given a number, find its factorial.
+
+
+#coding 
+
+def factorial(n):
+    result = 1
+    for i in range(1, n + 1):
+        result *= i
+    return result
+
+print("Factorial:", factorial(5))
