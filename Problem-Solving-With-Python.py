@@ -883,3 +883,18 @@ print(phone_number_check(01938561706))
 
 5. File Extension Checker
 Problem: Check the extension by file name (eg: .pdf, .doc).
+
+
+#coding 
+
+def file_extension(filename):
+    if "." in filename:
+        return filename.split(".")[-1]
+    else:
+        return "No extension"
+
+print(file_extension("document.pdf"))
+
+
+
+
