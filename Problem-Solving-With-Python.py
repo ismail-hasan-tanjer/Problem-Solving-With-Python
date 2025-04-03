@@ -938,5 +938,10 @@ print("Factorial:", factorial(5))
 9. Determining the average age
 Problem: Find the average of several ages.
 
+def average_age(ages):
+    return sum(ages) / len(ages)
+
+ages = [25, 30, 22, 28]
+print("Average Age:", average_age(ages))
 
 
