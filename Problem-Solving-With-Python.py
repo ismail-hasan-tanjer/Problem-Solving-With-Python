@@ -961,8 +961,25 @@ print("Leap Year:", is_leap_year(2024))
 11. Product Categorizer
 Problem: Find the category of a product given its price.
 
+#price 
+
 Price below 1000 rupees: Cheap
 
 1000 to 5000: Medium
 
 More than 5000 rupees: Expensive
+
+
+#coding 
+def product_category(price):
+    if price < 1000:
+        return "Cheap"
+    elif price <= 5000:
+        return "Medium"
+    else:
+        return "Expensive"
+
+print("Category:", product_category(3000))
+
+
+
