@@ -933,3 +933,10 @@ def factorial(n):
     return result
 
 print("Factorial:", factorial(5))
+
+
+9. Determining the average age
+Problem: Find the average of several ages.
+
+
+
