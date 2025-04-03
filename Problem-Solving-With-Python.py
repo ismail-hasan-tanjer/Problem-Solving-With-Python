@@ -945,3 +945,10 @@ ages = [25, 30, 22, 28]
 print("Average Age:", average_age(ages))
 
 
+
+10. Leap Year Checker
+Problem: Check if a year is a leap year.
+
+
+
+
