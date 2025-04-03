@@ -950,13 +950,14 @@ print("Average Age:", average_age(ages))
 Problem: Check if a year is a leap year.
 
 
-
-
-
-
 #coding 
 
 def is_leap_year(year):
     return (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0)
 
 print("Leap Year:", is_leap_year(2024))
+
+
+11. Product Categorizer
+Problem: Find the category of a product given its price.
+
