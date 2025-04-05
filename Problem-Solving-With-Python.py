@@ -1008,3 +1008,10 @@ Problem: Given a word and a number, print the word that number of times.
 def repeat_word(word, times):
     return word * times
 print(repeat_word("Hello", 3))
+
+
+
+
+14. Sorting a list of foods
+
+Problem: Sort a list of foods based on calories.
