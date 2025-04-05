@@ -1028,3 +1028,9 @@ print("Sorted Food:", sorted_food)
 15. Car Speed ​​Checker
 Problem: "Overspeeding" if speed is over 60, otherwise "Normal".
 
+#code 
+
+def speed_check(speed):
+    return "Over Speed" if speed > 60 else "Normal Speed"
+
+print(speed_check(70))
