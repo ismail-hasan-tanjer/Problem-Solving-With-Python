@@ -1023,3 +1023,8 @@ food_calories = {"Burger": 300, "Pizza": 400, "Salad": 150}
 sorted_food = sorted(food_calories.items(), key=lambda x: x[1])
 
 print("Sorted Food:", sorted_food)
+
+
+15. Car Speed ​​Checker
+Problem: "Overspeeding" if speed is over 60, otherwise "Normal".
+
