@@ -983,3 +983,9 @@ print("Category:", product_category(3000))
 
 
 
+12. Career Suggestions
+
+Problem: Give career suggestions based on age.
+
+
+
