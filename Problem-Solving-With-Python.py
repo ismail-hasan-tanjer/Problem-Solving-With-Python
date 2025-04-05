@@ -999,3 +999,5 @@ def career_suggestion(age):
 
 print(career_suggestion(25))
 
+13. Word Multiplier
+Problem: Given a word and a number, print the word that number of times.
