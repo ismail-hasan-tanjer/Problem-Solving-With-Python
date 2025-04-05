@@ -994,5 +994,8 @@ def career_suggestion(age):
         return "Student"
     elif age <= 30:
         return "Job Seeker"
-    
-    
+    else:
+        return "Professional"
+
+print(career_suggestion(25))
+
