@@ -987,5 +987,12 @@ print("Category:", product_category(3000))
 
 Problem: Give career suggestions based on age.
 
+#coding 
 
-
+def career_suggestion(age):
+    if age < 18:
+        return "Student"
+    elif age <= 30:
+        return "Job Seeker"
+    
+    
