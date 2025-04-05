@@ -1015,3 +1015,11 @@ print(repeat_word("Hello", 3))
 14. Sorting a list of foods
 
 Problem: Sort a list of foods based on calories.
+
+
+#coding 
+
+food_calories = {"Burger": 300, "Pizza": 400, "Salad": 150}
+sorted_food = sorted(food_calories.items(), key=lambda x: x[1])
+
+
