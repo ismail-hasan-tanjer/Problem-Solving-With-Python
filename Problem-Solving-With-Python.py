@@ -1059,3 +1059,11 @@ print(id_check(12345))
 18. Profit and loss account
 
 Problem: Find the profit and loss using the cost and selling price.
+
+
+#code 
+
+def profit_or_loss(cost, selling):
+    result = selling - cost
+    return "Profit" if result > 0 else "Loss" 
+
