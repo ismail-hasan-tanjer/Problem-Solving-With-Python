@@ -1034,3 +1034,8 @@ def speed_check(speed):
     return "Over Speed" if speed > 60 else "Normal Speed"
 
 print(speed_check(70))
+
+
+16. Personal Information Formatting
+Problem: Create a formatted string with name and age.
+
