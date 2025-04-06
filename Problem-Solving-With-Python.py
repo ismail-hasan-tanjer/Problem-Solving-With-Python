@@ -1053,3 +1053,5 @@ Problem: ID number is valid if it is 5 digits.
 def id_check(id_number):
     return "Valid" if len(str(id_number)) == 5 else "Invalid"
 
+print(id_check(12345))
+
