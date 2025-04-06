@@ -1067,3 +1067,4 @@ def profit_or_loss(cost, selling):
     result = selling - cost
     return "Profit" if result > 0 else "Loss" 
 
+print(profit_or_loss(500, 600))
