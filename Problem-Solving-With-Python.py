@@ -1048,3 +1048,7 @@ print(format_info("Ismail", 25))
 
 17. ID Verification
 Problem: ID number is valid if it is 5 digits.
+
+#code 
+def id_check(id_number):
+    
