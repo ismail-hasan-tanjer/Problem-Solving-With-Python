@@ -1039,3 +1039,7 @@ print(speed_check(70))
 16. Personal Information Formatting
 Problem: Create a formatted string with name and age.
 
+#coding 
+
+def format_info(name, age):
+    return f"Name: {name}, Age: {age}"
