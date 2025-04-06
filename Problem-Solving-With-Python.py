@@ -1057,3 +1057,5 @@ print(id_check(12345))
 
 
 18. Profit and loss account
+
+Problem: Find the profit and loss using the cost and selling price.
