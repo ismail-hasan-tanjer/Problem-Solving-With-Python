@@ -1055,3 +1055,5 @@ def id_check(id_number):
 
 print(id_check(12345))
 
+
+18. Profit and loss account
