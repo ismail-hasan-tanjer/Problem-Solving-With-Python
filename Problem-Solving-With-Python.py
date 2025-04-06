@@ -1044,3 +1044,7 @@ Problem: Create a formatted string with name and age.
 def format_info(name, age):
     return f"Name: {name}, Age: {age}"
 print(format_info("Ismail", 25))
+
+
+17. ID Verification
+Problem: ID number is valid if it is 5 digits.
