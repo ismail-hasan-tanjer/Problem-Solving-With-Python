@@ -1043,3 +1043,4 @@ Problem: Create a formatted string with name and age.
 
 def format_info(name, age):
     return f"Name: {name}, Age: {age}"
+print(format_info("Ismail", 25))
