@@ -1077,3 +1077,6 @@ def calculate_salary(hours):
     return hours * 200
 
 print("Salary:", calculate_salary(40))
+
+20. Student Attendance Check
+
