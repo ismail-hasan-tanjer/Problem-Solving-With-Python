@@ -1085,5 +1085,7 @@ print("Salary:", calculate_salary(40))
 Problem: "Attendance OK" if more than 75% attendance.
 
 
-
+def attendance_check(total, present):
+    attendance_percentage = (present / total) * 100
+    return "Attendance Okay" if attendance_percentage >= 75 else "Low Attendance"
 
