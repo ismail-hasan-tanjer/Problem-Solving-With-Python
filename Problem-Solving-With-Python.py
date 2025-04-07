@@ -1078,5 +1078,12 @@ def calculate_salary(hours):
 
 print("Salary:", calculate_salary(40))
 
+
+
 20. Student Attendance Check
+
+Problem: "Attendance OK" if more than 75% attendance.
+
+
+
 
