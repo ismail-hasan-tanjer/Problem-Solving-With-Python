@@ -1091,3 +1091,6 @@ def attendance_check(total, present):
 
 print(attendance_check(100, 80))
 
+
+
+Currency Converter (BDT to USD)
