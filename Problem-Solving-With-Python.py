@@ -1069,3 +1069,6 @@ def profit_or_loss(cost, selling):
 
 print(profit_or_loss(500, 600))
 
+19. Salary Determination
+
+Problem: Salary per hour is 200 taka. Determine the salary by total hours.
