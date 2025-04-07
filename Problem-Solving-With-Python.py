@@ -1075,3 +1075,5 @@ Problem: Salary per hour is 200 taka. Determine the salary by total hours.
 
 def calculate_salary(hours):
     return hours * 200
+
+print("Salary:", calculate_salary(40))
