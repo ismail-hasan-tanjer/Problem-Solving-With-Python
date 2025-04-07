@@ -1089,3 +1089,5 @@ def attendance_check(total, present):
     attendance_percentage = (present / total) * 100
     return "Attendance Okay" if attendance_percentage >= 75 else "Low Attendance"
 
+print(attendance_check(100, 80))
+
