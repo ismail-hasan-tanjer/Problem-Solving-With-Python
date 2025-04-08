@@ -1118,4 +1118,11 @@ def calculate_emi(principal, rate, time):
     return round(emi, 2)
 
 print("EMI:", calculate_emi(100000, 12, 12))
-    
+
+
+#Student Grade Calculator
+
+
+
+
+
