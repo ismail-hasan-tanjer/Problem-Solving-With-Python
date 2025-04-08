@@ -1114,5 +1114,8 @@ print(check_balance(5))
 
 def calculate_emi(principal, rate, time):
     r = rate / (12 * 100)
-    
+    emi = principal * r * ((1 + r) ** time) / (((1 + r) ** time) - 1)
+    return round(emi, 2)
+
+print("EMI:", calculate_emi(100000, 12, 12))
     
