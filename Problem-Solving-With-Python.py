@@ -1095,3 +1095,16 @@ print(attendance_check(100, 80))
 
 Currency Converter (BDT to USD)
 
+def convert_bdt_to_usd(bdt, rate=110):
+    return round(bdt / rate, 2)
+
+print("USD:", convert_bdt_to_usd(11000))
+
+
+
+#Mobile Balance Checker
+
+def check_balance(balance):
+    return "Low Balance" if balance < 10 else "Sufficient Balance"
+
+print(check_balance(5))
