@@ -1137,7 +1137,22 @@ def get_grade(score):
 print(get_grade(85))
 
 
+Electricity Bill Calculator
 
+def electricity_bill(units):
+    if units <= 50:
+        return units * 3.5
+    elif units <= 100:
+        return (50 * 3.5) + ((units - 50) * 4)
+    else:
+        return (50 * 3.5) + (50 * 4) + ((units - 100) * 5)
+
+print("Bill:", electricity_bill(120))
+
+
+
+
+Temperature Converter (Celsius to Fahrenheit)
 
 
 
