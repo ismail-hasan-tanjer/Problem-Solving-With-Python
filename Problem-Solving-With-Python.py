@@ -1108,3 +1108,11 @@ def check_balance(balance):
     return "Low Balance" if balance < 10 else "Sufficient Balance"
 
 print(check_balance(5))
+
+
+# Calculate EMI for a Loan
+
+def calculate_emi(principal, rate, time):
+    r = rate / (12 * 100)
+    
+    
