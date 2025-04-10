@@ -1201,5 +1201,7 @@ print("BMI:", calculate_bmi(70, 1.75))
 
 def even_odd_separator(lst):
     even = [x for x in lst if x % 2 == 0]
-    
-    
+    odd = [x for x in lst if x % 2 != 0]
+    return even, odd
+
+print(even_odd_separator([1, 2, 3, 4, 5, 6]))
