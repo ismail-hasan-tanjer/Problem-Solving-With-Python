@@ -1196,5 +1196,10 @@ def calculate_bmi(weight, height):
 print("BMI:", calculate_bmi(70, 1.75))
 
 
+#Even or Odd List Separator
+#coding f
+
+def even_odd_separator(lst):
+    even = [x for x in lst if x % 2 == 0]
     
     
