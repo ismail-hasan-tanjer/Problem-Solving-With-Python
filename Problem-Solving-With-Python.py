@@ -1180,3 +1180,7 @@ Voting Eligibility
 
 #coding 
     def can_vote(age):
+        return "Eligible" if age >= 18 else "Not Eligible"
+
+print(can_vote(16))
+
