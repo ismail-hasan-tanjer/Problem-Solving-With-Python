@@ -1184,3 +1184,14 @@ Voting Eligibility
 
 print(can_vote(16))
 
+
+# BMI Calculator
+
+#code 
+
+def calculate_bmi(weight, height):
+    bmi = weight / (height ** 2)
+    
+    
+    
+    
