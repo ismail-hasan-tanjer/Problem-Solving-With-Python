@@ -1191,7 +1191,10 @@ print(can_vote(16))
 
 def calculate_bmi(weight, height):
     bmi = weight / (height ** 2)
-    
-    
+    return round(bmi, 2)
+
+print("BMI:", calculate_bmi(70, 1.75))
+
+
     
     
