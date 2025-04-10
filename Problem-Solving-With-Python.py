@@ -1175,3 +1175,8 @@ def celsius_to_fahrenheit(c):
 print("Fahrenheit:", celsius_to_fahrenheit(30))
 
 
+
+Voting Eligibility
+
+#coding 
+    def can_vote(age):
