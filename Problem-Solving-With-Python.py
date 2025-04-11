@@ -1251,3 +1251,16 @@ print(todo_list)
 
 
 
+#Salary Tax Deduction Calculator
+
+#coding 
+
+def net_salary(gross_salary):
+    tax = 0.1 * gross_salary if gross_salary > 50000 else 0
+    return gross_salary - tax
+
+print("Net Salary:", net_salary(60000))
+
+
+
+
