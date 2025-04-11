@@ -1210,7 +1210,17 @@ print(even_odd_separator([1, 2, 3, 4, 5, 6]))
 
 #Remove Duplicates from List
 
+#coding 
+
 def remove_duplicates(lst):
     return list(set(lst))
 
 print(remove_duplicates([1, 2, 2, 3, 4, 4, 5]))
+
+
+#Detect Palindrome Word
+
+def is_palindrome(word):
+    return word == word[::-1]
+
+print(is_palindrome("madam"))
