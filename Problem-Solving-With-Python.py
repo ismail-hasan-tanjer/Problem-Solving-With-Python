@@ -1212,3 +1212,5 @@ print(even_odd_separator([1, 2, 3, 4, 5, 6]))
 
 def remove_duplicates(lst):
     return list(set(lst))
+
+print(remove_duplicates([1, 2, 2, 3, 4, 4, 5]))
