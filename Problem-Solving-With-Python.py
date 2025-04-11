@@ -1245,4 +1245,9 @@ print("Vowels:", count_vowels("Hello World"))
 def add_task(task):
     todo_list.append(task)
     
+add_task("Learn Python")
+add_task("Practice Problems")
+print(todo_list)
+
+
 
