@@ -1304,4 +1304,6 @@ print("Min & Max:", min_max([10, 5, 8, 20]))
 
 
 def reverse_sentence(sentence):
-    
+    return ' '.join(sentence.split()[::-1])
+
+print(reverse_sentence("Python is awesome"))
