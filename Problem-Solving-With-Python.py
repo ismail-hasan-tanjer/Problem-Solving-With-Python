@@ -1302,3 +1302,6 @@ print("Min & Max:", min_max([10, 5, 8, 20]))
 
 # Reverse a Sentence
 
+
+def reverse_sentence(sentence):
+    
