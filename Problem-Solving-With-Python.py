@@ -1296,3 +1296,5 @@ print(word_counter("Hello world hello Python world"))
 def min_max(lst):
     return min(lst), max(lst)
 
+print("Min & Max:", min_max([10, 5, 8, 20]))
+
