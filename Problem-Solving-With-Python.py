@@ -1278,5 +1278,10 @@ def is_prime(n):
 print("Is Prime:", is_prime(17))
 
 
-Word Frequency Counter
 
+#Word Frequency Counter
+
+from collections import Counter
+
+def word_counter(text):
+    words = text.lower().split()
