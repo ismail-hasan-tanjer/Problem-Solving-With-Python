@@ -1288,3 +1288,11 @@ def word_counter(text):
 return Counter(words)
 
 print(word_counter("Hello world hello Python world")) 
+
+
+
+#Find Maximum and Minimum in a List
+
+def min_max(lst):
+    return min(lst), max(lst)
+
