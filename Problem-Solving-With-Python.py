@@ -1262,6 +1262,8 @@ def net_salary(gross_salary):
 print("Net Salary:", net_salary(60000))
 
 
+
+
 # Check Prime Number
 
 
@@ -1274,3 +1276,7 @@ def is_prime(n):
     return True
 
 print("Is Prime:", is_prime(17))
+
+
+Word Frequency Counter
+
