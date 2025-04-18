@@ -1285,3 +1285,6 @@ from collections import Counter
 
 def word_counter(text):
     words = text.lower().split()
+return Counter(words)
+
+print(word_counter("Hello world hello Python world")) 
