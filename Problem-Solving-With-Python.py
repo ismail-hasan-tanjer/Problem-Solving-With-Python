@@ -1262,5 +1262,11 @@ def net_salary(gross_salary):
 print("Net Salary:", net_salary(60000))
 
 
+# Check Prime Number
 
 
+def is_prime(n):
+    if n < 2:
+        return False
+    for i in range(2, int(n**0.5)+1):
+        if n % i == 0:
