@@ -1329,3 +1329,7 @@ from datetime import date
 
 def days_to_new_year():
     today = date.today()
+    new_year = date(today.year + 1, 1, 1)
+    return (new_year - today).days
+
+
