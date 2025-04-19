@@ -1335,3 +1335,11 @@ def days_to_new_year():
 print("Days to New Year:", days_to_new_year())
 
 
+Countdown Timer
+
+#code of countdown timer 
+
+import time
+
+def countdown(seconds):
+    while seconds:
