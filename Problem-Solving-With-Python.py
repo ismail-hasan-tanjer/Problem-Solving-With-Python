@@ -1332,4 +1332,6 @@ def days_to_new_year():
     new_year = date(today.year + 1, 1, 1)
     return (new_year - today).days
 
+print("Days to New Year:", days_to_new_year())
+
 
