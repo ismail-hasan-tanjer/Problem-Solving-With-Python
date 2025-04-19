@@ -1307,3 +1307,12 @@ def reverse_sentence(sentence):
     return ' '.join(sentence.split()[::-1])
 
 print(reverse_sentence("Python is awesome"))
+
+
+Check Anagram
+
+#code of check anagram 
+def is_anagram(str1, str2):
+    return sorted(str1) == sorted(str2)
+
+print(is_anagram("listen", "silent"))
