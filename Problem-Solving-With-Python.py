@@ -1351,4 +1351,12 @@ def countdown(seconds):
 
 countdown(5)
 
+#Validate Email Address
 
+#code of validate email address 
+
+import re
+
+def is_valid_email(email):
+    pattern = r'^[\w\.-]+@[\w\.-]+\.\w+$'
+    return bool(re.match(pattern, email))
