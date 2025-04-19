@@ -1321,3 +1321,6 @@ print(is_anagram("listen", "silent"))
 
 
 Days Until New Year
+#code of days until new year 
+
+from datetime import date
