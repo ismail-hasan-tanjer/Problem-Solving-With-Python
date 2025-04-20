@@ -1380,4 +1380,11 @@ def mb_to_gb(mb):
 
     print(mb_to_gb(2048), "GB")
     
-Online Order Discount Calculator
+#Online Order Discount Calculator
+
+def calculate_discount(total):
+    if total >= 1000:
+        
+        
+        
+        
