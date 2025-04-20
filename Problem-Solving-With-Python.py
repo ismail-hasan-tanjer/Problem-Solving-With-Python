@@ -1377,3 +1377,6 @@ print(check_password_strength("Tanj3r@123"))
 #Internet Download Size Converter (MB to GB)
 def mb_to_gb(mb):
     return round(mb / 1024, 2)
+
+    print(mb_to_gb(2048), "GB")
+    
