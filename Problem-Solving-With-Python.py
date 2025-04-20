@@ -1369,7 +1369,8 @@ def check_password_strength(password):
     length = len(password) >= 8
     digit = any(c.isdigit() for c in password)
     upper = any(c.isupper() for c in password)
-    
-
-special = any(c in "!@#$%^&*()" for c in password)
+    special = any(c in "!@#$%^&*()" for c in password)
     return length and digit and upper and special
+
+print(check_password_strength("Tanj3r@123"))
+
