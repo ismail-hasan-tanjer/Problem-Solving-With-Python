@@ -1384,7 +1384,10 @@ def mb_to_gb(mb):
 
 def calculate_discount(total):
     if total >= 1000:
-        
+         return total * 0.9  # 10% discount
+    return total
+
+
         
         
         
