@@ -1364,3 +1364,9 @@ def is_valid_email(email):
 print(is_valid_email("tanjerinfo@gmail.com"))
 
 
+#Password Strength Checker
+def check_password_strength(password):
+    length = len(password) >= 8
+    digit = any(c.isdigit() for c in password)
+    upper = any(c.isupper() for c in password)
+
