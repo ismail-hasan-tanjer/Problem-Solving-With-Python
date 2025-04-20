@@ -1389,5 +1389,5 @@ def calculate_discount(total):
 
 
         
-        
+print("Payable:", calculate_discount(1500))
         
