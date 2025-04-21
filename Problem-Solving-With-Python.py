@@ -1400,3 +1400,9 @@ print("Safe People Capacity:", safe_room_capacity(4, 100))
 
 #Bus Fare Calculator Based on Age
 
+def calculate_fare(age):
+    if age < 5:
+        return 0
+    elif age >= 60:
+        return 20
+    return 40
