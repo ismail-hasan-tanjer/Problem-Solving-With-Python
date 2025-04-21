@@ -1397,3 +1397,6 @@ def safe_room_capacity(area_per_person, room_area):
     return room_area // area_per_person
 
 print("Safe People Capacity:", safe_room_capacity(4, 100))
+
+#Bus Fare Calculator Based on Age
+
