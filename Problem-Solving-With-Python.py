@@ -1391,3 +1391,9 @@ def calculate_discount(total):
         
 print("Payable:", calculate_discount(1500))
         
+#COVID Safety Room Capacity Checker
+
+def safe_room_capacity(area_per_person, room_area):
+    return room_area // area_per_person
+
+print("Safe People Capacity:", safe_room_capacity(4, 100))
