@@ -1406,3 +1406,4 @@ def calculate_fare(age):
     elif age >= 60:
         return 20
     return 40
+print("Fare:", calculate_fare(65))
