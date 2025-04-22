@@ -1427,3 +1427,6 @@ def generate_marksheet(name, marks):
     total = sum(marks.values())
     avg = total / len(marks)
     print(f"Student: {name}")
+    for subject, mark in marks.items():
+        print(f"{subject}: {mark}")
+    
