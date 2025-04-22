@@ -1430,3 +1430,5 @@ def generate_marksheet(name, marks):
     for subject, mark in marks.items():
         print(f"{subject}: {mark}")
     print(f"Total: {total}, Average: {avg:.2f}")
+
+generate_marksheet("Tanjer", {"Math": 80, "English": 75, "ICT": 90})
