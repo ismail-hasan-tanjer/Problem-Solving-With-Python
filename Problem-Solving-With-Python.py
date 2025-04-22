@@ -1429,4 +1429,4 @@ def generate_marksheet(name, marks):
     print(f"Student: {name}")
     for subject, mark in marks.items():
         print(f"{subject}: {mark}")
-    
+    print(f"Total: {total}, Average: {avg:.2f}")
