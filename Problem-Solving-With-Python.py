@@ -1418,3 +1418,4 @@ print("Fare:", calculate_fare(65))
 def daily_water_intake(weight_kg):
     return round(weight_kg * 0.033, 2)
 
+print("Water (L):", daily_water_intake(70))
