@@ -1432,3 +1432,8 @@ def generate_marksheet(name, marks):
     print(f"Total: {total}, Average: {avg:.2f}")
 
 generate_marksheet("Tanjer", {"Math": 80, "English": 75, "ICT": 90})
+
+
+# Leap Year Checker
+
+def is_leap_year(year):
