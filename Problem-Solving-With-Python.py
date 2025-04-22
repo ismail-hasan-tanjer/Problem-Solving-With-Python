@@ -1407,3 +1407,7 @@ def calculate_fare(age):
         return 20
     return 40
 print("Fare:", calculate_fare(65))
+
+
+#Daily Water Intake Reminder (Based on Body Weight)
+
