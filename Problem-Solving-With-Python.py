@@ -1469,3 +1469,8 @@ def count_votes(vote_list):
     return result
 
 print(count_votes(votes))
+
+#Task Time Estimator
+
+def estimate_time(tasks, time_per_task):
+    return tasks * time_per_task
