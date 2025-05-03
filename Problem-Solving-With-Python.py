@@ -1456,3 +1456,6 @@ def split_name(full_name):
     return parts[0], parts[-1]
 print(split_name("Md. Ismail Hasan Tanjer"))
 
+
+#Online Voting Counter
+
