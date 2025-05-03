@@ -1481,4 +1481,8 @@ print("Estimated time (mins):", estimate_time(10, 5))
 #Simple Encryption (Reverse + Replace)
 
 #coding 
+def encrypt(text):
+    return text[::-1].replace("a", "@").replace("s", "$")
+
+print(encrypt("password"))
 
