@@ -1465,4 +1465,7 @@ def count_votes(vote_list):
     result = {}
     for vote in vote_list:
         
-        
+        result[vote] = result.get(vote, 0) + 1
+    return result
+
+print(count_votes(votes))
