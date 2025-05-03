@@ -1440,4 +1440,12 @@ def is_leap_year(year):
     return year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)
 print(is_leap_year(2024))
 
+# Phone Number Formatter
+
+#CODING 
+def format_phone(number):
+    return f"+880-{number[:5]}-{number[5:]}"
+
+print(format_phone("1712345678"))
+
 
