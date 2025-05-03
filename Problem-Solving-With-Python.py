@@ -1450,3 +1450,9 @@ print(format_phone("1712345678"))
 
 
 # Split Name to First and Last Name
+
+def split_name(full_name):
+    parts = full_name.strip().split()
+    return parts[0], parts[-1]
+print(split_name("Md. Ismail Hasan Tanjer"))
+
