@@ -1474,3 +1474,5 @@ print(count_votes(votes))
 
 def estimate_time(tasks, time_per_task):
     return tasks * time_per_task
+
+print("Estimated time (mins):", estimate_time(10, 5))
