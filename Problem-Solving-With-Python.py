@@ -1459,3 +1459,10 @@ print(split_name("Md. Ismail Hasan Tanjer"))
 
 #Online Voting Counter
 
+votes = ["A", "B", "A", "C", "A", "B"]
+
+def count_votes(vote_list):
+    result = {}
+    for vote in vote_list:
+        
+        
