@@ -1486,3 +1486,13 @@ def encrypt(text):
 
 print(encrypt("password"))
 
+#URL Shortener (Simple) 
+
+
+def short_url(original):
+    return "short.ly/" + str(abs(hash(original)) % 100000)
+
+print(short_url("https://www.github.com"))
+
+
+
