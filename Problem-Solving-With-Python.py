@@ -1558,3 +1558,10 @@ def is_image(filename):
 print(is_image("photo.png"))  # True
 
 
+#Electricity Bill Calculator
+
+def electricity_bill(units):
+    if units <= 100:
+        return units * 5
+    elif units <= 300:
+        return 100*5 + (units-100)*7
