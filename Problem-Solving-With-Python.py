@@ -1495,7 +1495,7 @@ def short_url(original):
 print(short_url("https://www.github.com"))
 
 
-Monthly Expense Tracker
+#Monthly Expense Tracker
 
 expenses = {"Rent": 15000, "Food": 5000, "Internet": 1200}
 
@@ -1503,6 +1503,9 @@ def total_expense(exp_dict):
     return sum(exp_dict.values())
 
 print("Total Expense:", total_expense(expenses))
+
+
+#Convert Seconds to Hour-Minute-Second
 
 
 
