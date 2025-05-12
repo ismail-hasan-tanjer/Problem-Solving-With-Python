@@ -1539,3 +1539,9 @@ def login(username, password):
     return username == "admin" and password == "1234"
 
 print(login("admin", "1234"))  # True
+
+
+# BMI (Body Mass Index) Calculator
+
+def calculate_bmi(weight_kg, height_m):
+    bmi = weight_kg / (height_m ** 2)
