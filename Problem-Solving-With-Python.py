@@ -1555,4 +1555,6 @@ print(calculate_bmi(65, 1.70))  # Output: BMI
 def is_image(filename):
     return filename.lower().endswith(('.png', '.jpg', '.jpeg', '.gif'))
 
+print(is_image("photo.png"))  # True
+
 
