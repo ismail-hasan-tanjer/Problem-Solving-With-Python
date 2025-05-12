@@ -1545,3 +1545,8 @@ print(login("admin", "1234"))  # True
 
 def calculate_bmi(weight_kg, height_m):
     bmi = weight_kg / (height_m ** 2)
+    return round(bmi, 2)
+
+print(calculate_bmi(65, 1.70))  # Output: BMI
+
+
