@@ -1507,6 +1507,21 @@ print("Total Expense:", total_expense(expenses))
 
 #Convert Seconds to Hour-Minute-Second
 
+def convert_seconds(seconds):
+    h = seconds // 3600
+    m = (seconds % 3600) // 60
+    s = seconds % 60
+    return f"{h}h {m}m {s}s"
+
+print(convert_seconds(3665))
 
 
+#Simulate Dice Roll
+
+import random
+
+def roll_dice():
+    return random.randint(1, 6)
+
+print("Dice rolled:", roll_dice())
 
