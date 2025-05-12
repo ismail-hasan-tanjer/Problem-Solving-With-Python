@@ -1550,3 +1550,9 @@ def calculate_bmi(weight_kg, height_m):
 print(calculate_bmi(65, 1.70))  # Output: BMI
 
 
+# Determine If File Is Image or Not
+
+def is_image(filename):
+    return filename.lower().endswith(('.png', '.jpg', '.jpeg', '.gif'))
+
+
