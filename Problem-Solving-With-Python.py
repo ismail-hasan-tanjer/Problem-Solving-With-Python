@@ -1533,4 +1533,9 @@ def convert_bdt_to_usd(bdt, rate=110):
 
 print(convert_bdt_to_usd(11000))  # Output: 100.0
 
+#user login systems 
 
+def login(username, password):
+    return username == "admin" and password == "1234"
+
+print(login("admin", "1234"))  # True
