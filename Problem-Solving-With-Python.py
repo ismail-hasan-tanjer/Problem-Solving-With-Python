@@ -1565,3 +1565,8 @@ def electricity_bill(units):
         return units * 5
     elif units <= 300:
         return 100*5 + (units-100)*7
+    
+    else:
+        return 100*5 + 200*7 + (units-300)*10
+
+print(electricity_bill(350))  # Output: total bill
