@@ -1525,3 +1525,12 @@ def roll_dice():
 
 print("Dice rolled:", roll_dice())
 
+
+#Currency Converter (BDT to USD)
+
+def convert_bdt_to_usd(bdt, rate=110):
+    return round(bdt / rate, 2)
+
+print(convert_bdt_to_usd(11000))  # Output: 100.0
+
+
